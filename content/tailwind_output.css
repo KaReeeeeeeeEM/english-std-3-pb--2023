@@ -2991,9 +2991,6 @@
       background-color: color-mix(in oklab, var(--color-fuchsia-50) 40%, transparent);
     }
   }
-  .bg-fuchsia-400 {
-    background-color: var(--color-fuchsia-400);
-  }
   .bg-fuchsia-500 {
     background-color: var(--color-fuchsia-500);
   }
@@ -8390,11 +8387,6 @@
   .md\:w-\[370px\] {
     @media (width >= 48rem) {
       width: 370px;
-    }
-  }
-  .md\:max-w-2xl {
-    @media (width >= 48rem) {
-      max-width: var(--container-2xl);
     }
   }
   .md\:max-w-\[18rem\] {
