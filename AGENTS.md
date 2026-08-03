@@ -236,7 +236,7 @@ Controls which features the reader UI enables. This book's config:
     "easyRead": false,
     "glossary": false,
     "eli5": false,
-    "readAloud": false,
+    "readAloud": true,
     "autoplay": true,
     "showTutorial": true,
     "showNavigationControls": true,
