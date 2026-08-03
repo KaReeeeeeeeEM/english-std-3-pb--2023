@@ -168,7 +168,7 @@ Every piece of displayable text has a unique, stable **text ID**. This ID is the
 | Pattern | What it is | Example |
 |---|---|---|
 | `pg{NNN}_gp{NNN}_tx{NNN}` | Page body text | `pg001_gp001_tx001` |
-| `pg{NNN}_im{NNN}` | Image alt text / description | `pg001_im001` |
+| `pg{NNN}_im{NNN}` | Image alt text / description | `pg001_im003` |
 
 Page/group/text numbers are zero-padded to 3 digits. Quiz option numbers are single digits.
 
@@ -201,7 +201,7 @@ A flat `Record<textId, string>` containing every piece of text in the book. Exam
 ```json
 {
   "pg001_gp001_tx001": "",
-  "pg001_im001": ""
+  "pg001_im003": "Certificate of approval from the United Republic of Tanzania for the English Pupil’s Book Standard Three, showing the Ministry of Education, Science and Technology and book details."
 }
 ```
 
@@ -281,7 +281,7 @@ Each page is a standalone HTML file at the root of `adt/`. Key structural elemen
         <section role="article" data-section-type="text_and_single_image"
                  data-section-id="pg007_sec001">
             <!-- Images use relative paths and carry data-id for alt text lookup -->
-            <img data-id="pg001_im001" src="images/pg001_im001.png" ...>
+            <img data-id="pg001_im003" src="images/pg001_im003.png" ...>
 
             <!-- Text elements carry data-id for i18n and TTS -->
             <span data-id="pg001_gp001_tx001"></span>
